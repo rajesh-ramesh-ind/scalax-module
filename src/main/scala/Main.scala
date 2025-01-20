@@ -1,3 +1,22 @@
+import scala.collection.mutable
+
+object Main extends App {
+  def hasDuplicate(lt: List[Int]): Boolean = {
+    val set = mutable.HashSet[Int]()
+    for (ele <- lt) {
+      if (!set.add(ele)) {
+        return true
+      }
+    }
+    false
+  }
+
+  val lt = 1 :: 2 :: 2 :: 4 :: 5 :: Nil
+
+  println(hasDuplicate(lt))
+
+}
+
 //import org.graalvm.compiler.graph.spi.Canonicalizable.Binary
 //
 //import java.io.{File, FileInputStream, FileOutputStream, FileWriter}

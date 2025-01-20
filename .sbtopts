@@ -1,2 +1,21 @@
--Xmx512M
--Xss2M
+# SBT cache directory
+-Dsbt.boot.directory=./sbt/cache
+
+# SBT Coursier Home
+-Dsbt.coursier.home=./sbt/coursier
+
+# SBT version
+# -Dsbt.version=1.5.5
+
+# Scala version
+-Dscala.version=2.13.5
+
+# SBT Log level
+-Dsbt.log.level=debug
+
+# SBT parallel execution level
+-Dsbt.parallel=true
+-Dsbt.parallel.level=4
+
+# SBT memory options
+-Dsbt.memory=2048

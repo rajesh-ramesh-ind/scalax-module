@@ -1,4 +1,4 @@
-import Dependencies.*
+import Dependencies._
 
 import java.net.URL
 
@@ -10,10 +10,9 @@ lazy val root = (project in file("."))
   .settings(
     name := "scalax-module",
     description := "Extension module for Scala Language (unofficial)",
-    developers := Developer("rajesh-ramesh-ind", "Rajesh Ramesh", "rajeshramesh38@outlook.com", new URL("https://github.com/rajesh-ramesh-ind")) :: Nil,
+    developers := Developer("rajesh-ramesh-ind", "Rajesh Ramesh", "rajesh.ramesh.tn@proton.me", new URL("https://github.com/rajesh-ramesh-ind")) :: Nil,
     libraryDependencies ++= javaLibs
-  ).aggregate(io, utils).dependsOn(io, utils)
-  .enablePlugins(JmhPlugin)
+  ).aggregate(io, utils).dependsOn(io, utils).enablePlugins(JmhPlugin)
 
 lazy val io = (project in file("scala-io"))
   .settings(

@@ -1,0 +1,8 @@
+# Increase the maximum heap size for the JVM
+-Xmx2048M
+
+# Increase the initial heap size for the JVM
+-Xms1024M
+
+# Number of parallel GC threads
+-XX:ParallelGCThreads=4
