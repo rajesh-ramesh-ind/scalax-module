@@ -1,0 +1,2 @@
+# scalax-module
+ Scala extensions

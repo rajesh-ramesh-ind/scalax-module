@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "D:\\Softwares\\scala-cli-x86_64-pc-win32\\scala-cli.exe",
+    "bsp",
+    "--json-options",
+    "D:\\Projects\\ScalaProjects\\scalax-module\\.scala-build\\ide-options-v2.json",
+    "--json-launcher-options",
+    "D:\\Projects\\ScalaProjects\\scalax-module\\.scala-build\\ide-launcher-options.json",
+    "--envs-file",
+    "D:\\Projects\\ScalaProjects\\scalax-module\\.scala-build\\ide-envs.json",
+    "D:\\Projects\\ScalaProjects\\scalax-module"
+  ],
+  "version": "1.5.4",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
